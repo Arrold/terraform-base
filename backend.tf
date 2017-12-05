@@ -1,7 +1,6 @@
 terraform {
   backend "s3" {
-    /* use -backend-config='bucket=foo'*/
-    /* key    = "base" */
+    /* e.g use -backend-config='bucket=foo'*/
     region = "ap-southeast-2"
   }
 }
